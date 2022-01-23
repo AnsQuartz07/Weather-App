@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    display: block;
+}
+
+body {
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    background: linear-gradient(rgb(105, 75, 236),rgb(177, 78, 60));
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.weather-icon{
+    width: 100px;
+    height: 43px;
+}
+.location,
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature {
+    flex-direction: column;
+    
+}
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-section h2 {
+    font-size: 40px;
+}
+.footer{
+    margin-top: auto;
+    color: black;
+}
+
+.fa{
+    margin: 0px 10px;
+}
+.socialIcon{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: 200;
+}
